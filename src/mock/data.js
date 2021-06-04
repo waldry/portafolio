@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Waldry Diaz | Desarrollador FullStack', // e.g: 'Name | Developer'
   lang: 'es', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Conoce sobre mi y mis habilidades Tech', // e.g: Welcome to my website
 };
 
 // HERO DATA
