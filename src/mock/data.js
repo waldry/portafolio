@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'http://72.167.43.59/wdiaz/vitae.pdf', // if no resume, the button will not show up
+  resume: 'http://wdiaz.dsf.com.do/vitae.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
