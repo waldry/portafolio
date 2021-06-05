@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'Apasionado por la programación, trabajador, entusiasta y sobre todo un profesional responsable dedicado a dar lo mejor para entregar productos digitales de la más alta calidad posible.',
+  paragraphTwo:
+    'Con tecnologías como React, React-Native, Gatsby, NodeJS, PostgreSQL, MongoDB, C#, MVC y Windows Form cuento con una amplia gama de herramientas listas para automatizar y/o aumentar el impacto de tu negocio.',
+  paragraphThree:
+    'Telefonía Ip, infraestructura de la información y la creación de software es lo que me define como profesional, colocando como el limite la imaginación y siempre poniendo todo el empeño en cada proyecto.',
   resume: 'http://wdiaz.dsf.com.do/vitae.pdf', // if no resume, the button will not show up
 };
 
@@ -28,21 +31,23 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: '3.jpeg',
+    title: 'Centro De Caja',
+    info: 'El Centro de caja es una aplicacion utilizando el patron MVC hecho en C# y WindowsForm',
+    info2:
+      'Software para instituciones financieras con una conexion Cliente-Servidor el cual permite gestionar los depositos, retiros, transacciones y reportes que la entidad requiera para facilitar y automatizar los procesos internos de esta.',
+    url: 'http://www.dasoft.com.do/',
+    repo: 'https://github.com/waldry/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: '2.png',
+    title: 'Dashboard DGTextiles',
+    info: 'Centro Administrativo para DGTextiles hecho utilizando React,React-To-Print,Redux,Bootstrap y CoreUI.',
+    info2:
+      'Herramienta de administracion del modelo negocio textil con capacidad de impresion en dispositivos mobiles y de gestionar el flujo de informacion necesario para agilizar las entradas en un parque industrial.',
+    url: 'http://dg.dsf.com.do/#/login',
+    repo: 'https://github.com/waldry/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
