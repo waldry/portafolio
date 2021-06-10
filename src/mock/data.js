@@ -31,7 +31,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: '3.jpeg',
+    img: '3.png',
     title: 'Centro De Caja',
     info: 'El Centro de caja es una aplicacion utilizando el patron MVC hecho en C# y WindowsForm',
     info2:
