@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hola, mi nombre es',
   name: 'Waldry Díaz',
-  subtitle: 'Desarrollador de aplicaciones web y mobiles.',
+  subtitle: 'Desarrollador de aplicaciones web y movíles.',
   cta: 'Mas información',
 };
 
@@ -31,32 +31,33 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: '3.png',
-    title: 'Centro De Caja',
-    info: 'El Centro de caja es una aplicacion utilizando el patron MVC hecho en C# y WindowsForm',
-    info2:
-      'Software para instituciones financieras con una conexion Cliente-Servidor el cual permite gestionar los depositos, retiros, transacciones y reportes que la entidad requiera para facilitar y automatizar los procesos internos de esta.',
-    url: 'http://www.dasoft.com.do/',
-    repo: 'https://github.com/waldry/', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: '2.png',
     title: 'Dashboard DGTextiles',
     info: 'Centro Administrativo para DGTextiles hecho utilizando React,React-To-Print,Redux,Bootstrap y CoreUI.',
     info2:
-      'Herramienta de administracion del modelo negocio textil con capacidad de impresion en dispositivos mobiles y de gestionar el flujo de informacion necesario para agilizar las entradas en un parque industrial.',
+      'Herramienta de administración del modelo negocio textil con capacidad de impresión en dispositivos móviles y de gestionar el flujo de información necesario para agilizar las entradas en un parque industrial.',
     url: 'http://dg.dsf.com.do/#/login',
-    repo: 'https://github.com/waldry/', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: '3.png',
+    title: 'CoopQuisqueya WebSite',
+    info: 'WebSite hecho para CoopQuisqueya utilizando VanillaJS, Boostrap y HTML',
+    info2:
+      'Landing Page para institución financiera de cooperación socioeconómica. Cooperativa de ahorros créditos y servicios múltiples Quisqueya.',
+    url: 'https://www.coopquisqueya.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: '4.png',
+    title: 'CoopQuisqueya Virtual',
+    info: 'Utilizándose como NetBanking para CoopQuisqueya, esta herramienta fue hecha en ReactNative.',
+    info2:
+      'Software que facilita la interacción de los clientes con la cooperativa agilizando procesos y evitando tener que ir físicamente a la institución financiera. Fui participe del despliegue de esta app a las tiendas correspondientes.',
+    url: 'https://youtu.be/OFHaegnqY4o',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
